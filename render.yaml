@@ -1,7 +1,7 @@
 
 services:
   - type: web
-    name: preisrechner-backend
+    name: preisrechner-backend-png
     env: node
     buildCommand: "npm install"
     startCommand: "node index.js"
